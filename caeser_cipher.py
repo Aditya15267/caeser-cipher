@@ -43,4 +43,4 @@ if __name__ == "__main__":
     mode = 'encode' if choice == '1' else 'decode'
     result = caeser_cipher(message, shift, mode)
 
-    print(f"\n {'Encoded' if mode == 'encode' else 'Decoded'} Message: {result}")
+    print(f"\n{'Encoded' if mode == 'encode' else 'Decoded'} Message:\n{result}")
